@@ -19,10 +19,11 @@ let i=0;
 
 while( i < listaSpesa.length){
 
-    
-    
+    const elementiDiLista=listaSpesa[i]
     const listaFinale = document.createElement("li");
     listaDaUtilizzare.appendChild(listaFinale)
-    
+    listaFinale.append(elementiDiLista)
+    i++
+
 
 }
